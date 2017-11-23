@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	background: #0575E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #021B79, #0575E6); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+	
+}
+
+.contenedor {
+	width: 500px;
+	margin: 50px;
+	padding: 20px;
+}
+
+.contenedor h1 {
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.contenedor hr {
+	background: rgba(255,255,255,.5);
+	width: 20%;
+	height: 5px;
+	border: none;
+	margin: 20px 0;
+}
+
+p {
+	margin-bottom: 20px;
+	line-height: 28px;
+	font-size: 16px;
+}
+
+/* Scroll Personalizado */
+
+body::-webkit-scrollbar {
+	width: 10px;
+	background: #021b79;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: rgba(255,255,255, .2);
+	border-radius: 10px;
+	border-right: 2px solid #021b79;
+}

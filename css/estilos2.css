@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f2f2f2;
+	font-family: 'Spectral SC', serif;
+}
+
+.contenedor {
+	width: 500px;
+	margin: 50px;
+	padding: 20px;
+	background: #fff;
+}
+
+.contenedor h1 {
+	font-size: 38px;
+	font-weight: 600;
+}
+
+.contenedor hr {
+	background: #414141;
+	width: 20%;
+	height: 5px;
+	border: none;
+	margin: 20px 0;
+}
+
+p {
+	margin-bottom: 20px;
+	line-height: 28px;
+	font-size: 16px;
+}
+
+/* Scroll Personalizado */
+
+body::-webkit-scrollbar {
+	width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #414141;
+}

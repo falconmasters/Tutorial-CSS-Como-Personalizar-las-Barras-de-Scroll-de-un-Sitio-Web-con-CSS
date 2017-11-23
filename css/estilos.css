@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f2f2f2;
+	font-family: 'Oswald', sans-serif;
+}
+
+.contenedor {
+	width: 500px;
+	height: 500px;
+	margin: 50px auto;
+	padding: 20px;
+	background: #fff;
+	overflow: auto;
+	font-family: 'Open Sans';
+	border-radius: 4px;
+}
+
+.contenedor h1 {
+	font-size: 38px;
+	font-weight: 600;
+	color: #000;
+}
+
+.contenedor hr {
+	background: #ff9d00;
+	width: 20%;
+	height: 5px;
+	border: none;
+	margin: 20px 0;
+	border-radius: 50px;
+}
+
+p {
+	margin-bottom: 20px;
+	line-height: 28px;
+	font-size: 16px;
+	color: #414141;
+}
+
+/* Scroll Personalizado */
+
+.contenedor::-webkit-scrollbar {
+	width: 7px;
+}
+
+.contenedor::-webkit-scrollbar-thumb {
+	background: #ff9d00;
+	border-radius: 5px;
+}
